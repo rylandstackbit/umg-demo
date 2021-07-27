@@ -10,7 +10,7 @@ export default function FooterNav(props) {
 
     return (
         <section className="cell widget widget-nav text-white">
-            {title && <h2 className="widget-title">{title}</h2>}
+            {title && <h2 className="widget-title text-white">{title}</h2>}
             {navLinks && (
                 <ul className="menu">
                     {_.map(navLinks, (action, actionIdx) => (
