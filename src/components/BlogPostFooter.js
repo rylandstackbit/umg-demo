@@ -12,7 +12,7 @@ export default function BlogPostFooter(props) {
     const authorName = author ? _.trim(`${author.first_name} ${author.last_name}`) : null;
 
     return (
-        <footer className="post-meta bg-gray">
+        <footer className="post-meta">
             <span>CLICK TO PRE-ORDER</span>
         </footer>
     );
