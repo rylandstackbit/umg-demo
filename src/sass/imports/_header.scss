@@ -57,12 +57,12 @@
   .site-navigation {
     .current-menu-item {
       color: #fff;
-      font-weight: 800;
+      font-weight: 700;
     }
 
     a:not(.button) {
       color: #fff;
-      font-weight: 600;
+      font-weight: 500;
 
       &:hover {
         color: $gray-500;
