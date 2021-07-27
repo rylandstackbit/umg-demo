@@ -24,7 +24,7 @@ export default function SectionHero(props) {
                         </div>
                     )}
                     <div className="cell block-content">
-                        <p className="italic text-tall text-red p-0">RED</p>
+                        <span className="italic text-tall text-red p-0">RED</p>
                         {title && <h2 className="block-title underline">{title}</h2>}
                         {content && (
                             <div className="block-copy">
