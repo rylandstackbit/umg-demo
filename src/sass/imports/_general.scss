@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bg-brown-light {
+    background-color: #D7BCA7
+}
+
 @each $font, $stack in $theme-fonts {
   $font-suffix: "#{$font}";
 
