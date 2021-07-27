@@ -18,8 +18,8 @@ body {
     background-color: #962C2E;
 }
 
-.text-white {
-    color: #fff !important;
+.text-red {
+    color: #962C2E !important;
 }
 
 @each $font, $stack in $theme-fonts {
