@@ -18,6 +18,10 @@ body {
     background-color: #962C2E;
 }
 
+.text-white {
+    color: #fff;
+}
+
 @each $font, $stack in $theme-fonts {
   $font-suffix: "#{$font}";
 
