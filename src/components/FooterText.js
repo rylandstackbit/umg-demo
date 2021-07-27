@@ -14,7 +14,7 @@ export default function FooterText(props) {
     const content = _.get(section, 'content');
 
     return (
-        <section className="cell widget widget-text bg-brown">
+        <section className="cell widget widget-text">
             {image &&
                 (imageUrl ? (
                     <Link className="widget-image" href={withPrefix(imageUrl)}>
