@@ -16,7 +16,7 @@ export default function FooterForm(props) {
 
     return (
         <section className="cell widget widget-form text-white">
-            {title && <h2 className="widget-title">{title}</h2>}
+            {title && <h2 className="widget-title text-white">{title}</h2>}
             <ReactMarkdown>{content}</ReactMarkdown>
             <form
                 name={formId}
