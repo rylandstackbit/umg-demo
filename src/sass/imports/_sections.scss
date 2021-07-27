@@ -123,13 +123,12 @@
       flex: 0 0 41.666%;
       max-width: 41.666%;
       text-align: right;
-      justify-content: flex-end !important;
       padding-top: 5rem;
 
       &:not(:only-child) {
         .block-buttons {
           -ms-flex-pack: start;
-          justify-content: flex-start;
+          justify-content: flex-end;
 
           a {
             margin-left: 0;
