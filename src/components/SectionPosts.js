@@ -16,7 +16,7 @@ export default function SectionPosts(props) {
     const subtitle = _.get(section, 'subtitle');
 
     return (
-        <section id={sectionId} className={`block posts-block bg-light-brown outer`}>
+        <section id={sectionId} className={`block posts-block bg-brown-light outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title">{title}</h2>}
                 {subtitle && <p className="block-subtitle">{subtitle}</p>}
