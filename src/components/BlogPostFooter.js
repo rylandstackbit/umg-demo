@@ -13,10 +13,7 @@ export default function BlogPostFooter(props) {
 
     return (
         <footer className="post-meta">
-            <time className="published" dateTime={dateTimeAttr}>
-                {formattedDate}
-            </time>
-            {authorName && `, by ${authorName}`}
+            <span>CLICK TO PRE-ORDER</span>
         </footer>
     );
 }

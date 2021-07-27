@@ -15,8 +15,8 @@ export default function FooterForm(props) {
     const submitLabel = _.get(section, 'submit_label');
 
     return (
-        <section className="cell widget widget-form">
-            {title && <h2 className="widget-title">{title}</h2>}
+        <section className="cell widget widget-form text-white">
+            {title && <h2 className="widget-title text-white">{title}</h2>}
             <ReactMarkdown>{content}</ReactMarkdown>
             <form
                 name={formId}

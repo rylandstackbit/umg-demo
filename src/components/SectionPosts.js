@@ -16,7 +16,7 @@ export default function SectionPosts(props) {
     const subtitle = _.get(section, 'subtitle');
 
     return (
-        <section id={sectionId} className={`block posts-block bg-${background} outer`}>
+        <section id={sectionId} className={`block posts-block bg-brown-very-light italic outer`}>
             <div className="block-header inner-small">
                 {title && <h2 className="block-title">{title}</h2>}
                 {subtitle && <p className="block-subtitle">{subtitle}</p>}
@@ -47,7 +47,7 @@ function RecentPost(post) {
                         <img src={withPrefix(thumbImage)} alt={thumbImageAlt} />
                     </Link>
                 )}
-                <div className="post-body">
+                <div className="post-body bg-gray">
                     <header className="post-header">
                         <h3 className="post-title">
                             <Link href={postUrl}>{title}</Link>

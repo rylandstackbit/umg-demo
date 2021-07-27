@@ -1,5 +1,5 @@
 .site-header {
-  background: #fff;
+  background: #8D5F47;
   color: $gray-700;
   padding-bottom: 1em;
   padding-top: 1em;
@@ -56,11 +56,12 @@
 
   .site-navigation {
     .current-menu-item {
-      color: $gray-500;
+      color: #fff;
+      font-weight: 700;
     }
 
     a:not(.button) {
-      color: inherit;
+      color: #fff;
 
       &:hover {
         color: $gray-500;
@@ -93,7 +94,7 @@
 
   @supports (position: sticky) or (position: -webkit-sticky) {
     .site-header {
-      background: #fff;
+      background: #8D5F47;
       position: -webkit-sticky;
       position: sticky;
       top: 0;

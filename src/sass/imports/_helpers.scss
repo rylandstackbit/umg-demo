@@ -44,6 +44,15 @@
   margin-right: math.div(-$grid-gap, 2);
 }
 
+.grid-hero {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -5rem;
+  margin-right: -5rem;
+}
+
 .cell {
   box-sizing: border-box;
   padding-left: math.div($grid-gap, 2);

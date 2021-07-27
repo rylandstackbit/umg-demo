@@ -25,7 +25,7 @@ export default function FooterText(props) {
                         <img src={withPrefix(image)} alt={imageAlt} />
                     </p>
                 ))}
-            {title && <h2 className="widget-title">{title}</h2>}
+            {title && <h2 className="widget-title text-white">{title}</h2>}
             <ReactMarkdown>{content}</ReactMarkdown>
         </section>
     );
