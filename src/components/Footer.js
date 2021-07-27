@@ -42,7 +42,7 @@ export default function Footer(props) {
                     </div>
                 </div>
             )}
-            <div className="footer-bottom outer">
+            <div className="footer-bottom outer text-white">
                 <div className="inner">
                     {!hideNavLinks && !_.isEmpty(navLinks) && (
                         <div className="footer-nav">
@@ -55,7 +55,7 @@ export default function Footer(props) {
                             </ul>
                         </div>
                     )}
-                    <div className="site-info">
+                    <div className="site-info text-white">
                         <div dangerouslySetInnerHTML={{ __html: footerContent }} />
                         &nbsp;
                         {_.map(links, (action, actionIdx) => (
