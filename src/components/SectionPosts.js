@@ -47,7 +47,7 @@ function RecentPost(post) {
                         <img src={withPrefix(thumbImage)} alt={thumbImageAlt} />
                     </Link>
                 )}
-                <div className="post-body">
+                <div className="post-body bg-gray">
                     <header className="post-header">
                         <h3 className="post-title">
                             <Link href={postUrl}>{title}</Link>
